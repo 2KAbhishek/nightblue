@@ -1,6 +1,6 @@
 <div align = "center">
 
-<h1><a href="https://github.com/2kabhishek/nightblue">nightblue</a></h1>
+<h1><a href="https://addons.mozilla.org/en-US/developers/addon/nightblue/">Nightblue</a></h1>
 
 <a href="https://github.com/2KAbhishek/nightblue/blob/main/LICENSE">
 <img alt="License" src="https://img.shields.io/github/license/2kabhishek/nightblue?style=flat&color=eee&label="> </a>
@@ -20,78 +20,76 @@
 <a href="https://github.com/2KAbhishek/nightblue/pulse">
 <img alt="Last Updated" src="https://img.shields.io/github/last-commit/2kabhishek/nightblue?style=flat&color=e06c75&label="> </a>
 
-<h3>Short Sweet Headline 🎇🎉</h3>
+<h3>Black and Blue for Night watchers 🦉🔭</h3>
 
 <figure>
   <img src="images/screenshot.png" alt="nightblue in action">
   <br/>
-  <figcaption>nightblue in action</figcaption>
+  <figcaption>Nightblue in action</figcaption>
 </figure>
 
 </div>
 
-nightblue is a `<utility/tool>` that allows `<target_audience>` to `<action>`.
+[Nightblue](https://addons.mozilla.org/en-US/developers/addon/nightblue/) is a pitch black theme for Firefox Desktop and Android.
 
 ## ✨ Features
 
-- Supports foo
-- Can do bar
-- Works with bazz
+- Aesthetically pleasing and minimalistic colors
+- Optimized for AMOLED displays
 
 ## Setup
 
 ### ⚡ Requirements
 
-- foo >= bar
-- bazz
+To replicate the setup show on screenshot you need the following plugins:
+
+- [Dark Reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/)
+- [Tree Style Tab](https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/)
+
+##### To disable the Native tab bar do the following,
+
+- Enter `about:config` in the URL bar
+- Change the value of `toolkit.legacyUserProfileCustomizations.stylesheets` to `true`
+- Click on Firefox menu > Help > More troubleshooting info
+- Search for Profile Directory on the page and navigate to it: e.g: `/home/abhishek/.mozilla/firefox/krel8zkj.default-release`
+- Create a `chrome` folder if not present
+- Add the following to `userChrome.css` in that folder
+
+```css
+#TabsToolbar {
+  visibility: collapse;
+}
+```
+
+- If you want to hide the sidebar heading add the following as well
+
+```css
+#sidebar-header {
+   visibility: collapse !important;
+}
+```
+- Don't forget to restart Firefox as well
 
 ### 🚀 Installation
 
-```bash
-git clone https://github.com/2kabhishek/nightblue
-cd nightblue
-<install_command>
-```
-
-### 💻 Usage
-
-```bash
-USAGE:
-    nightblue [FLAGS] [OPTIONS]
-Example:
-    nightblue
-```
-
-## What's Next
-
-Planning to add `<feature/module>`.
-
-### ✅ To-Do
-
-- [x] Setup repo
-- [ ] Think real hard
-- [ ] Start typing
+Just go to [Nightblue](https://addons.mozilla.org/en-US/developers/addon/nightblue/) and install the theme.
 
 ##  Behind The Code
 
 ### 🌈 Inspiration
 
-nightblue was inspired by `<reason/idea>`.
+Needed a theme to match rest of my setup
+
+- [awesome2k](https://github.com/2kabhishek/awesome2k)
+- [rofi2k](https://github.com/2kabhishek/rofi2k)
 
 ### 💡 Challenges/Learnings
 
-- The main challenges were `<issue/difficulty>`
-- I learned about `<learning/accomplishment>`
+- Learned about the Firefox plugin ecosystem
 
 ### 🧰 Tooling
 
-- [Dotfiles](https://github.com/2kabhishek/Dotfiles) — Dev Environment
-- [nvim2k](https://github.com/2kabhishek/nvim2k) — Personalized Editor
-- [awesome2k](https://github.com/2kabhishek/awesome2k) — Tiling Window Manager
-
-### 🔍 More Info
-
-- [similar](https://github.com/2kabhishek/similar) — a related repo
+- [Firefox Color](https://color.firefox.com/)
 
 <hr>
 
