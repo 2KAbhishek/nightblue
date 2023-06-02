@@ -1,6 +1,6 @@
 <div align = "center">
 
-<h1><a href="https://addons.mozilla.org/en-US/developers/addon/nightblue/">Nightblue</a></h1>
+<h1><a href="https://addons.mozilla.org/en-US/firefox/addon/nightblue/">Nightblue</a></h1>
 
 <a href="https://github.com/2KAbhishek/nightblue/blob/main/LICENSE">
 <img alt="License" src="https://img.shields.io/github/license/2kabhishek/nightblue?style=flat&color=eee&label="> </a>
